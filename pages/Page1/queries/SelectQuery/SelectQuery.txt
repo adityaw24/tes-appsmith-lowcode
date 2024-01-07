@@ -1,0 +1,5 @@
+SELECT * FROM public."users"
+WHERE name ILIKE {{ '%' + Table1.searchText + '%' }}
+ORDER BY updated_at DESC
+LIMIT {{Table1.pageSize}}
+OFFSET {{(Table1.pageNo -1)*Table1.pageSize}};

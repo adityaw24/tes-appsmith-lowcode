@@ -1,0 +1,4 @@
+SELECT COUNT(id) as row_count 
+FROM public.users
+
+WHERE name ILIKE {{ '%' + Table1.searchText + '%' }};

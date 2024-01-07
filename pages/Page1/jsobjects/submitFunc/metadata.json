@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "submitFunc",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Page1_submitFunc",
+  "deleted": false,
+  "gitSyncId": "6597672981baea416c7d1ad9_659ab90412eca13330fd22b8"
+}

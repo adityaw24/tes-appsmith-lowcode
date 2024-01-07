@@ -1,0 +1,20 @@
+{
+  "unpublishedCollection": {
+    "name": "dataForm",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "genderList",
+        "value": "[{\n  \"label\": \"Male\",\n  \"value\": \"male\"\n}, {\n  \"label\": \"Female\",\n  \"value\": \"female\"\n}]"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Page1_dataForm",
+  "deleted": false,
+  "gitSyncId": "6597672981baea416c7d1ad9_659ab26112eca13330fd22b2"
+}

@@ -1,0 +1,12 @@
+UPDATE public."users" SET
+		"gender" = '{{JSONForm1.fieldState.gender.isVisible ? JSONForm1.formData.gender : JSONForm1.sourceData.gender}}',
+		"latitude" = '{{JSONForm1.fieldState.latitude.isVisible ? JSONForm1.formData.latitude : JSONForm1.sourceData.latitude}}',
+    "longitude" = '{{JSONForm1.fieldState.longitude.isVisible ? JSONForm1.formData.longitude : JSONForm1.sourceData.longitude}}',
+		"dob" = '{{JSONForm1.fieldState.dob.isVisible ? JSONForm1.formData.dob : JSONForm1.sourceData.dob}}',
+		"phone" = '{{JSONForm1.fieldState.phone.isVisible ? JSONForm1.formData.phone : JSONForm1.sourceData.phone}}',
+		"email" = '{{JSONForm1.fieldState.email.isVisible ? JSONForm1.formData.email : JSONForm1.sourceData.email}}',
+		"image" = '{{JSONForm1.fieldState.image.isVisible ? JSONForm1.formData.image : JSONForm1.sourceData.image}}',
+		"country" = '{{JSONForm1.fieldState.country.isVisible ? JSONForm1.formData.country : JSONForm1.sourceData.country}}',
+		"name" = '{{JSONForm1.fieldState.name.isVisible ? JSONForm1.formData.name : JSONForm1.sourceData.name}}',
+		"updated_at" = '{{JSONForm1.fieldState.updated_at.isVisible ? Date() : JSONForm1.sourceData.updated_at}}'
+	WHERE "id" = {{Table1.selectedRow.id}};
