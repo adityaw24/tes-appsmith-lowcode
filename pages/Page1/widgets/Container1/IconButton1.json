@@ -21,7 +21,7 @@
     "animateLoading": true,
     "parentColumnSpace": 19.578125,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 59.913806863527526,
+    "leftColumn": 59.91380686352753,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"},
@@ -30,7 +30,7 @@
     "isDisabled": "{{!Table1.selectedRow.id}}",
     "key": "lp1kw6mvdy",
     "isDeprecated": false,
-    "rightColumn": 61.956903431763756,
+    "rightColumn": 61.95690343176376,
     "iconName": "edit",
     "widgetId": "a3m9y49j17",
     "minWidth": 50,
