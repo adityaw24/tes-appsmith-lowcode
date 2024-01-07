@@ -9,7 +9,7 @@
     "type": "ICON_BUTTON_WIDGET",
     "parentColumnSpace": 12.0703125,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 61.95690343176376,
+    "leftColumn": 61.94871794871795,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
